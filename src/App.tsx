@@ -5,17 +5,12 @@ import './App.css';
 import Navbar from './Components/NavBar/Navbar';
 import Cards from './Components/Cards';
 
-
-
-
 function App() {
   return (
     <>
     <Navbar />
     <People />      
     </>
-
-
   );
 }
 
