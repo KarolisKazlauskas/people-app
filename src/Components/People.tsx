@@ -5,17 +5,13 @@ import Cards from './Cards';
 
 const People = () => {
     const [userData, setUserData] = useState<Person[]>([]);
-    console.clear();
-    console.log('People User data: ', userData);
 
     useEffect(() => {
         axios
             .get<Person[]>('https://swapi.dev/api/people/')
             .then((response: AxiosResponse) => {
                 setUserData(response.data);
-  
             })
-  
     }, []);
 
     return (
@@ -23,6 +19,7 @@ const People = () => {
     <>
     <Cards userData={userData} />
     </>
+        
     );
 };
 export default People;
