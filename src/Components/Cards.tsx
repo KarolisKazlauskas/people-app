@@ -1,6 +1,5 @@
 import BootstrapTable from "react-bootstrap-table-next";
 import 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit.min.css';
-import { Person } from "../Models/Person";
 
 const Cards = (props: any) => {
     const columns = [
