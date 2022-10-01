@@ -14,7 +14,6 @@ const Cards = (props: any) => {
             text: "height",
         },
         {
-
             dataField: "mass",
             text: "mass",
         },
