@@ -15,11 +15,9 @@ const People = () => {
     }, []);
 
     return (
-        
     <>
     <Cards userData={userData} />
-    </>
-        
+    </>   
     );
 };
 export default People;
